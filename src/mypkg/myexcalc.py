@@ -1,10 +1,10 @@
 """
     My example Module (extra module)
 """
-
+from typing import Optional
 from . import mycalc
 
-def myexadd(a, b) -> int:
+def myexadd(a, b) -> Optional[int]:
     try:
         a_int = int(a)
         b_int = int(b)
