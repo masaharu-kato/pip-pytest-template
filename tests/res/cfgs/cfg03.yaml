@@ -1,0 +1,5 @@
+options: [a, b]
+hoge: 1250
+user:
+  name: "Tom"
+  age: 21
